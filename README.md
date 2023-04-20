@@ -15,10 +15,11 @@ Open `index.html` in the web browser of your choice.
 
 The page contains some information on the main technologies used on the web. Opening the Javascript console gives you a topic to study, and a maze to solve.
 
+If the user doesn't like the page, they can click a button to make a new one.
+
 ## Credits
 
 N/A
-
 
 ## License
 
