@@ -95,7 +95,7 @@ function regenerationComplete(){
   const feedbackText = document.createElement('input');
   const feedbackButton = document.createElement('button');
   feedbackButton.onclick = fetchNewContent;
-  feedbackButton.innerHTML = "I still don't like this page :(";
+  feedbackButton.innerHTML = "Generate another new page";
   feedbackButton.style = "display: block; margin: 5px auto;";
   feedbackText.id = "prompt";
   feedbackText.placeholder = "Enter page suggestion";
