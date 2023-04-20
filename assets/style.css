@@ -1,22 +1,29 @@
 * {
   margin: 0;
-  padding: 0;
  }
  
- header,
- footer {
+ header, footer {
   width: 100%;
   height: 120px;
   background-color: #007EA7;
   color: white;
  }
  
- h1,
- h2 {
+ .title {
   text-align: center;
  }
- 
-.headerimg {
+
+.demo {
+  display:inline-block;
+ }
+
+ th, td {
+  border: 1px solid black;
+  padding: 4px;
+  text-align: left;
+}
+
+ .headerimg {
   display: block;
   height: 50px;
   width: 50px;
@@ -40,6 +47,7 @@
  
  ul {
   padding-left: 40px;
+  padding-bottom: 10px;
   font-size: 20px;
  }
  

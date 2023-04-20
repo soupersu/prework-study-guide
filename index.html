@@ -10,46 +10,78 @@
   </head>
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1 class="title">Prework Study Guide</h1>
       <img class="headerimg" src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+      <h2 class="title">✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
+        <h2 class="title">HTML</h2>
         <ul>
-          <li>Enter your HTML notes here</li>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>HTML code consists of elements, or tags, that define the layout and contents of the page.</li>
+          <li>These elements can be nested inside eachother, just like this list is inside of the box labelled "HTML"</li>
+          <li>These tags include things like:</li>
           <ul>
-            <li>The head element contains information about the webpage.</li>
-            <li>The body element represents the visible content shown to the user.</li>
+            <li>head</li>
+            <li>header</li>
+            <li>body</li>
+            <li><div style="background-color:aquamarine; width:100px">div</li>
+            <li>
+            <table>
+              <tr><td colspan="2">table</td></tr>
+              <tr><td>tr</td><td>td</td></tr>
+            </table>
+            </li>
+            <li><ul>
+              <li>ul</li><li>li</li>
+            </ul>
+            </li>
+            <li><img src="assets/img.png" alt="img"></li>
+            <li> &lt;script&gt;alert(123)&lt;/script&gt; </li>
+            <li><h1 class="demo">h1</h1>, <h2 class="demo">h2</h2>, <h3 class="demo">h3</h3>, <h4 class="demo">h4</h4>, <h5 class="demo">h5</h5>, <h6 class="demo">h6</h6></li>
+            <li>footer</li>
           </ul>
+          </li>
+        <li>These elements and more form the buildinig blocks of all websties</li>
+        </ul>
         </ul>
       </section>
 
       <section class="card" id="css-section">
-        <h2>CSS</h2>
+        <h2 class="title">CSS</h2>
         <ul>
           <li>Enter your CSS notes here</li>
           <ul>
             <li>CSS styles are used to control the appearance of webpages.</li>
-            <li>There are many CSS libraries available for use on the web</li>
+            <li>Styles can control things such as color, borders, layouts, sizes, animations and fonts used by the page.</li>
+            <li>CSS uses classes to apply style settings to any elements that have that class added to them</li>
+            <li>There are many CSS libraries available for use on the web to help make styling a page easier.</li>
           </ul>
         </ul>
         
       </section>
    
       <section class="card" id="git-section">
-        <h2>Git</h2>
+        <h2 class="title">Git</h2>
         <ul>
           <li>Git is a versioning tool used to keep track of changes in repositories</li>
           <li>Git allows multiple team members to work on the same codebase without conflicting with eachother</li>
+          <li>Code can be cloned from a remote repository down to a local computer to get a copy of the code</li>
+          <li>Changes can then be made and added to a code branch, which can then be pushed back up</li>
+          <li>Code branches can be reviewed and merged back into the main code branch</li>
+          <li>This workflow allows multiple team members to work on the same codebase at the same time without causing conflicts or overwriting eachothers work</li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
+        <h2 class="title">JavaScript</h2>
         <ul>
-          <li>Javascript is a programming language used within webpages, and in other environments such as Node</li>
+          <li>Javascript is a programming language used within webpages, and in other environments such as Node.js</li>
+          <li>Allows logic to be included on a webpage for rich user interactions and advanced webapp functionality</li>
+          <li>A dynamic, interpreted, high-level and object-orientated language</li>
+          <li>Shares similarities in syntax to C/C++</li>
           <li>Javascrips is home to many wonders such as this:
             <br>
             <img class="jsimg" src="assets/js1.png"/>
@@ -66,6 +98,10 @@
 
     <footer>
       <p>I can code!</p>
+      <p><div>
+        <input style="display: block; margin: 5px auto;" id="prompt" type="text" placeholder="Enter page suggestion">
+        <button style="display: block; margin: 5px auto;" onclick="fetchNewContent();">I don't like this page :(</button>
+      </div></p>
     </footer>
   </body>
 </html>
